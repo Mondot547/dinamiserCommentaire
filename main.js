@@ -35,6 +35,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                 </div>
             `;
+
+            //Inserer le nouveau commentaire
+            commentList.append(newComment);
         }
 
         //condition pour afficher le message d'error en cas d'inputs vide
@@ -49,8 +52,6 @@ document.addEventListener('DOMContentLoaded', () => {
             //Ajout de la fonction de creation de commentaire
             createComment();
 
-            //Inserer le nouveau commentaire
-            commentList.append(newComment);
         }
 
         //Reinitialiser les valeurs des inputs
