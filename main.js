@@ -33,5 +33,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             </div>
         `;
+
+        //Inserer le nouveau commentaire
+        commentList.append(newComment);
+
+        //Reinitialiser les valeurs des inputs
+        document.getElementById('first-name').value = '';
+        document.getElementById('last-name').value = '';
+        document.getElementById('message').value = '';
+
     });
 });
